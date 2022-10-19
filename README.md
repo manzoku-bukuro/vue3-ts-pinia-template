@@ -17,3 +17,8 @@ Vue.js - The Progressive JavaScript Framework
 ✔ Add Cypress for both Unit and End-to-End testing? … No
 ✔ Add ESLint for code quality? … No
 ```
+
+## scss導入
+```
+npm add -D sass
+```
