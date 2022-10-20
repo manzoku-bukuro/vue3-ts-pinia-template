@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import TypeScriptExample from '@/components/TypeScriptExample.vue';
 </script>
 
 <template>
-  <div></div>
+  <div>
+    <TypeScriptExample></TypeScriptExample>
+  </div>
 </template>
 
 <style lang="scss" scoped>
