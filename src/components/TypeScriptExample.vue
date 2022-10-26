@@ -10,7 +10,7 @@ const numberSample = ref<number>(1);
 const arrayExample = ref<number[]>([1, 2, 3]);
 // 配列(型複数)
 const mixArrayExample = ref<(number | string)[]>([1, 'string']);
-// 配列(generics)
+// 配列(ジェネリクス)
 const genericsArrayExample = ref<Array<string | number>>([2, 'apple']);
 // 連想配列 キー名が決まっている場合
 const fixedKeyDictionaryExample = ref<{ name: string, count: number, unnecessary?: string }>({ 'name': 'a', 'count': 1 });
@@ -27,6 +27,8 @@ interface myInterface {
     } | null;
 }
 const interfaceExample = ref<myInterface[]>([{ name: 'test1', count: 1, info: { status: 'ok' } },{ name: 'test2', count: 2, isSet: true, info: null }]);
+
+
 </script>
 
 <template>
