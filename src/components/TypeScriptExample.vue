@@ -7,7 +7,7 @@ stringSample.value = 'string';
 
 // 数字
 const numberSample = ref<number>(1);
-numberSample.value = 2
+numberSample.value = 2;
 
 // 配列(型単体)
 const arrayExample = ref<number[]>([1, 2, 3]);
